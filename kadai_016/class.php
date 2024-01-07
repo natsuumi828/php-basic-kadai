@@ -12,9 +12,6 @@
         private $name;
         private $price;
 
-        public function set_price(int $price) {
-          $this->price = $price;
-        }
         public function show_price() {
           echo $this->price . '<br>';
         }
@@ -29,10 +26,7 @@
         private $name;
         private $height;
         private $weight;
-
-        public function set_height(int $height) {
-          $this->height = $height;
-        }
+        
         public function show_height() {
           echo $this->height . '<br>';
         }
